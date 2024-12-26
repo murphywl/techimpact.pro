@@ -1,8 +1,10 @@
-if (document.querySelector(".warning")) {
-    const container = document.querySelector(".warning");
-    const apply = container.querySelector(".warning__apply");
-    apply.addEventListener("click", () => {
-      container.classList.remove("warning--active");
-      document.cookie = "warning=true; max-age=2592000; path=/";
-    });
-  };
+var cta = document.getElementById("cta");
+var bar = document.getElementById("cookie-banner");
+
+cta.addEventListener("click", function() {
+	bar.classList.add("out");
+	
+	setTimeout(function() {
+		bar.classList.remove("out");
+	}, 2000000000);
+}, true);
