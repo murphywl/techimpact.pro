@@ -1297,7 +1297,7 @@ img,
   margin-right: 10px;
 }
 .cid-ufFwZN76Yc .navbar-caption:hover {
-  color: #060606;
+  color: #fff !important;
 }
 @media (min-width: 992px) {
   .cid-ufFwZN76Yc .dropdown-menu.dropdown-submenu {
