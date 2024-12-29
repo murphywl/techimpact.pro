@@ -10,8 +10,11 @@
 #cookie-banner {
     border-radius: 5px;
 	margin: 10px;
-	background: #4E76F6;
+	background-color: black;
 	color: white;
+	border-color: #fff;
+	border: solid;
+	border-width: 0.5px;
 	padding: 20px;
 	display: flex;
 	justify-content: space-between;
@@ -43,10 +46,12 @@
 
 #linka:hover {
 	opacity: 0.7;
+	transition: opacity 0.2s ease;
 }
 
 #linka:hover::after {
 	opacity: 0.7;
+	transition: opacity 0.2s ease;
 }
 
 .out {
@@ -54,15 +59,24 @@
 }
 
 #cta {
-    color: #4E76F6;
-	background:#fff;
+    color: #fff;
+border-color: #fff;
+background-color: black;
+border: solid;
+border-width: 0.5px;
 	padding: 5px 10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border-radius: 3px;
+	border-radius: 50px;
 	cursor: pointer;
 }
+
+#cta:hover {
+	opacity: 0.7;
+	transition: opacity 0.2s ease;
+}
+
 
 #cookie-text {
     padding-right: 10px;
