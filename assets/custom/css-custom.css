@@ -81,3 +81,19 @@ border-width: 0.5px;
 #cookie-text {
     padding-right: 10px;
 }
+
+.linearText {
+	background: linear-gradient(90deg, #3b6bff, #6e92ff 65%, #a1b8ff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  }
+
+.greyText{
+	color: #fff;
+	font-size: 1.55rem !important;
+}
+
+.no-hover {
+	pointer-events: none !important; 
+	border: 0px !important; 
+  }
