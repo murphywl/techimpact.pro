@@ -55,7 +55,7 @@
 }
 
 .out {
-	opacity: 0 !important;
+	display: none !important;
 }
 
 #cta {
@@ -97,3 +97,4 @@ border-width: 0.5px;
 	pointer-events: none !important; 
 	border: 0px !important; 
   }
+
