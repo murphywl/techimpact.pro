@@ -113,3 +113,14 @@ body::-webkit-scrollbar-track {
   border-radius: 1px;
   background-color: #060606;
 }
+
+body {
+	overflow: -moz-scrollbars-none;
+	-ms-overflow-style: none;
+	scrollbar-width: none; /* Firefox */
+  }
+  
+  body::-webkit-scrollbar {
+	display: none; /* Chrome, Safari */
+  }
+  
