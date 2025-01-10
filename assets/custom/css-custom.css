@@ -98,3 +98,6 @@ border-width: 0.5px;
 	border: 0px !important; 
   }
 
+.example::-webkit-scrollbar {
+	display: none !important;
+  }
