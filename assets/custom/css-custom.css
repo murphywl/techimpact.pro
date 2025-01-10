@@ -99,9 +99,10 @@ border-width: 0.5px;
   }
  
 .element::-webkit-scrollbar { 
-    width : 0 !important /* Webkit */
+    width : 0 !important 
 } 
 .element { 
-    -ms-overflow-style : none; /* IE10+ */
-    overflow           : -moz-scrollbars-none; /* FireFox, но может не работать */
+    -ms-overflow-style : none;
+    overflow           : -moz-scrollbars-none; 
+	overflow-x: hidden !important;
 }
