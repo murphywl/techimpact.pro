@@ -98,12 +98,10 @@ border-width: 0.5px;
 	border: 0px !important; 
   }
  
-.example::-webkit-scrollbar { /* Webkit */
-    width      : 0;  /* ширина scrollbar'a */
-    background : transparent  /* опционально */
-}
-
-html {
-    -ms-overflow-style : none;  /* IE 10+ */
-    scrollbar-width    : none /* Firefox */
+.element::-webkit-scrollbar { 
+    width : 0 !important /* Webkit */
+} 
+.element { 
+    -ms-overflow-style : none; /* IE10+ */
+    overflow           : -moz-scrollbars-none; /* FireFox, но может не работать */
 }
