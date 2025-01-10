@@ -98,11 +98,6 @@ border-width: 0.5px;
 	border: 0px !important; 
   }
  
-.element::-webkit-scrollbar { 
-    width : 0 !important 
-} 
-.element { 
-    -ms-overflow-style : none;
-    overflow           : -moz-scrollbars-none; 
-	overflow-x: hidden !important;
-}
+body::-webkit-scrollbar {
+	display: none !important;
+  }
