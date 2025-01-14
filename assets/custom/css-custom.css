@@ -113,7 +113,7 @@ body::-webkit-scrollbar {
   
 img, video {
 	max-width: 100% !important;
-	height: auto !important;
+	/*height: auto !important;*/
   }
 .container {
 	width: 100% !important;
