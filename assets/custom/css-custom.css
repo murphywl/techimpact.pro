@@ -102,3 +102,41 @@ body::-webkit-scrollbar {
 	width: 1px !important;
 	background-color: #060606 !important;
   }
+
+  * {
+	box-sizing: border-box !important;
+  }
+  html, body {
+	max-width: 100% !important;
+	overflow-x: hidden !important;
+  }
+  
+img, video {
+	max-width: 100% !important;
+	height: auto !important;
+  }
+.container {
+	width: 100% !important;
+	overflow: hidden !important;
+  }
+
+/* Для Webkit-браузеров (Chrome, Safari) */
+::-webkit-scrollbar {
+	width: 8px !important; /* Ширина полосы прокрутки */
+	height: 8px !important; /* Высота горизонтального скролла */
+  }
+  
+ ::-webkit-scrollbar-thumb {
+	background: #ccc !important; /* Цвет ползунка */
+	border-radius: 4px !important; /* Закругления */
+  }
+  
+::-webkit-scrollbar-thumb:hover {
+	background: #aaa !important; /* Цвет при наведении */
+  }
+  
+::-webkit-scrollbar-track {
+	background: #f0f0f0 !important; /* Цвет фона полосы прокрутки */
+  }
+  
+  
