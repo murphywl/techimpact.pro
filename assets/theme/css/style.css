@@ -246,10 +246,14 @@ figure[mbr-media-size] {
   transition: width 0.1s;
 }
 
-img,
-iframe {
+img {
   display: block;
   width: 200px;
+}
+
+iframe {
+  display: block;
+  width: 100%;
 }
 
 .card {
