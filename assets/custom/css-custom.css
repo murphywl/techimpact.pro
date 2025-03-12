@@ -139,4 +139,10 @@ img, video {
 	background: #f0f0f0 !important; /* Цвет фона полосы прокрутки */
   }
   
-  
+.youtube {
+	text-align: right !important;
+}
+
+.vk {
+	text-align: left !important;
+}
