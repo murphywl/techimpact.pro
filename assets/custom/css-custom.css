@@ -83,7 +83,7 @@ border-width: 0.5px;
 }
 
 .linearText {
-	background: #ffbf00;
+	background: linear-gradient(90deg, #3b6bff, #6e92ff 65%, #a1b8ff);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
   }
