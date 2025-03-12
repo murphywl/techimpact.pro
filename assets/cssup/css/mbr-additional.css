@@ -143,12 +143,12 @@ body {
   border-color: #202020 !important;
 }
 .btn-secondary {
-  background: linear-gradient(90deg, #0844ff, #0844ff 65%, #6e91ff) !important;
+  background: #ffbf00 !important;
 }
 .btn-secondary,
 .btn-secondary:active {
-  background-color: #0844ff !important;
-  border-color: #0844ff !important;
+  background-color: #ffbf00 !important;
+  border-color: #ffbf00 !important;
   color: #ffffff !important;
   box-shadow: none;
 }
@@ -157,15 +157,15 @@ body {
 .btn-secondary.focus,
 .btn-secondary.active {
   color: inherit;
-  background-color: #3b6bff !important;
-  border-color: #3b6bff !important;
+  background-color: #ffbf00 !important;
+  border-color: #ffbf00 !important;
   box-shadow: none;
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled {
   color: #ffffff !important;
-  background-color: #3b6bff !important;
-  border-color: #3b6bff !important;
+  background-color: #ffbf00 !important;
+  border-color: #ffbf00 !important;
 }
 .btn-info {
   background: linear-gradient(90deg, #ffffff, #ffffff 65%, #ffffff) !important;
@@ -193,12 +193,12 @@ body {
   border-color: #ffffff !important;
 }
 .btn-success {
-  background: linear-gradient(90deg, #2e96ff, #2e96ff 65%, #94c9ff) !important;
+  background: #ffbf00 !important;
 }
 .btn-success,
 .btn-success:active {
-  background-color: #2e96ff !important;
-  border-color: #2e96ff !important;
+  background-color: #ffbf00 !important;
+  border-color: #ffbf00 !important;
   color: #ffffff !important;
   box-shadow: none;
 }
@@ -207,15 +207,15 @@ body {
 .btn-success.focus,
 .btn-success.active {
   color: inherit;
-  background-color: #61b0ff !important;
-  border-color: #61b0ff !important;
+  background-color: #ffbf00 !important;
+  border-color: #ffbf00 !important;
   box-shadow: none;
 }
 .btn-success.disabled,
 .btn-success:disabled {
   color: #ffffff !important;
-  background-color: #61b0ff !important;
-  border-color: #61b0ff !important;
+  background-color: #ffbf00 !important;
+  border-color: #ffbf00 !important;
 }
 .btn-warning {
   background: linear-gradient(90deg, #dcb300, #dcb300 65%, #ffdc43) !important;
@@ -2468,7 +2468,7 @@ img,
   }
 }
 .cid-ufFCdVvmil .content-wrapper .text-wrapper .mbr-text span {
-  background: linear-gradient(90deg, #3b6bff, #6e92ff 65%, #a1b8ff);
+  background: #ffbf00;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
